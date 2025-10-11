@@ -162,7 +162,7 @@ export default function Home() {
           <p className="mx-auto max-w-[600px] text-orange-100 md:text-xl/relaxed">
             Thousands trust SplitAi to make expense sharing effortless.
           </p>
-          <Button asChild size="lg" className="bg-green-800 hover:opacity-90">
+          <Button asChild size="lg" className="bg-orange-500 hover:bg-orange-600">
             <Link href="/dashboard">
               Dive In
               <ArrowRight className="ml-2 h-4 w-4" />

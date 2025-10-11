@@ -17,6 +17,7 @@ bun dev
 [npm run dev]
 [npx convex dev]
 [npx inngest-cli@latest dev]
+[npx convex run seed:seedDatabase]
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
