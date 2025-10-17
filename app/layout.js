@@ -19,12 +19,12 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/logos/icon.png" sizes="any" />
       </head>
       <body className={`${inter.className}`}>
-        <ClerkProvider>
+        <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}>
           <ConvexClientProvider>
             <Header/>
             <main className="min-h-screen">
-              {children}
               <Toaster richColors />
+              {children}
             </main>
           </ConvexClientProvider>
         </ClerkProvider>

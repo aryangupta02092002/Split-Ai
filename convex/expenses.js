@@ -34,7 +34,7 @@ export const createExpense = mutation({
                 (member) => member.userId === user._id
             );
             if (!isMember) {
-                throw new Error("You are not a member of this group");
+                throw new Error("Access denied — you’re not part of this group");
             }
         }
 
@@ -45,7 +45,7 @@ export const createExpense = mutation({
     );
     const tolerance = 0.01; // Allow for small rounding errors
     if (Math.abs(totalSplitAmount - args.amount) > tolerance) {
-        throw new Error("Split amounts must add up to the total expense amount");
+        throw new Error("Please adjust the split — it doesn’t add up to the full amount");
     }
 
     // Create the expense
