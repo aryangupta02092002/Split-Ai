@@ -1,5 +1,7 @@
 # 💸 Split AI
 
+**Split smarter. Spend better.**
+
 **Split AI** is a modern, AI-powered web application designed to make bill splitting effortless, transparent, and smart.  
 Whether you're dining out with friends or managing shared expenses, Split AI helps you **split, calculate, and send bills seamlessly** — all in a beautiful, fast, and secure interface.
 
@@ -40,15 +42,18 @@ Whether you're dining out with friends or managing shared expenses, Split AI hel
 ```bash
 git clone https://github.com/aryangupta02092002/Split-Ai.git
 cd Split-Ai
-2. Install dependencies
-bash
-Copy code
+```
+
+### 2. Install dependencies
+```bash
 npm install
-3. Setup environment variables
+```
+
+### 3. Setup environment variables
+```bash
 Create a .env.local file in the root directory and add your credentials:
 
 env
-Copy code
 CONVEX_DEPLOYMENT=your_convex_url
 NEXT_PUBLIC_CONVEX_URL=your_convex_url
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
@@ -59,35 +64,31 @@ CLERK_JWT_ISSUER_DOMAIN=your_clerk_jwt_domain
 RESEND_API_KEY=your_resend_key
 GEMINI_API_KEY=your_gemini_key
 
-4. Run the development server
-bash
-Copy code
-npm run dev
-Visit the app at http://localhost:3000 🚀
+```
 
-npx convex dev
-For backend-convex development server
+### 4. Run the development server
+```bash
+npm run dev (Visit the app at http://localhost:3000 🚀)
 
-npx inngest-cli@latest dev
-For inngest server startup
+npx convex dev (For backend-convex development server)
 
-npx convex run seed:seedDatabase
-For seed data
+npx inngest-cli@latest dev (For inngest server startup)
 
-📅 Cron Jobs & Scheduled Tasks
+npx convex run seed:seedDatabase (For seed data)
+```
+
+### 📅 Cron Jobs & Scheduled Tasks
 Split AI uses cron-scheduled jobs (via Convex and Inngest) for:
 
-Sending reminder emails
+- Sending reminder emails
+- Cleaning up expired sessions
+- Running periodic data syncs
 
-Cleaning up expired sessions
-
-Running periodic data syncs
-
-📬 Email Workflows
+### 📬 Email Workflows
 All transactional and reminder emails are powered by Resend and triggered via Inngest workflows.
 
-🧩 Folder Structure
-perl
+### 🧩 Folder Structure
+```perl
 Copy code
 split-ai/
 │
@@ -97,24 +98,22 @@ split-ai/
 ├── hooks/               # Custom React hooks for data fetching, session handling, and UI logic
 ├── lib/                 # Helper functions and utilities
 └── public/              # Static assets (images, icons, etc.)
+```
 
-🧪 Validation & Type Safety
+### 🧪 Validation & Type Safety
 All forms and inputs are validated using Zod, ensuring strong type safety and secure data flow between frontend and backend.
 
-🧠 Future Enhancements
-🤖 Add AI-driven expense suggestions
+### 🧠 Future Enhancements
+- 🤖 Add AI-driven expense suggestions
+- 💬 Integration with WhatsApp for sending bills
+- 📱 Mobile-first UI improvements
 
-💬 Integration with WhatsApp for sending bills
 
-📱 Mobile-first UI improvements
-
-👨‍💻 Developer
+### 👨‍💻 Developer
 Aryan Gupta
-💼 Full Stack Developer 
-📧 Connect on LinkedIn
-🌐 GitHub
+- 💼 Application Developer 
+- 📧 [**Connect on LinkedIn**](https://www.linkedin.com/in/aryan-gupta-1bb108192/)
+- 🌐 [**GitHub**](https://github.com/aryangupta02092002)
 
 🪪 License
 This project is licensed under the MIT License – feel free to use and modify it.
-
-“Split smarter. Spend better.”
