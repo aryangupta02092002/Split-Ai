@@ -5,6 +5,7 @@
 **Split AI** is a modern, AI-powered web application designed to make bill splitting effortless, transparent, and smart.  
 Whether you're dining out with friends or managing shared expenses, Split AI helps you **split, calculate, and send bills seamlessly** — all in a beautiful, fast, and secure interface.
 
+Check it out here! ➡️ [**Split Ai**](https://split-ai-three.vercel.app/)
 ---
 
 ## 🚀 Tech Stack
