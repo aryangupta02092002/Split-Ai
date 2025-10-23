@@ -108,10 +108,9 @@ All forms and inputs are validated using Zod, ensuring strong type safety and se
 - 💬 Integration with WhatsApp for sending bills
 - 📱 Mobile-first UI improvements
 
-
-### 👨‍💻 Developer
-Aryan Gupta
-- 💼 Application Developer 
+## 👨‍💻 Developer
+### **Aryan Gupta**
+- 💼 Application Developer @ IBM India Pvt Ltd
 - 📧 [**Connect on LinkedIn**](https://www.linkedin.com/in/aryan-gupta-1bb108192/)
 - 🌐 [**GitHub**](https://github.com/aryangupta02092002)
 
